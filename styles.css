@@ -1,0 +1,8 @@
+
+/*set columns*/
+body {
+    columns: 20rem auto;
+}
+h1 {
+    column-span: all;
+}
