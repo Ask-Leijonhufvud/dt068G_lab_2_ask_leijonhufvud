@@ -1,8 +1,9 @@
 
 /*set columns*/
 body {
-    columns: 20rem auto;
+    columns: 18rem auto;
 }
 h1 {
     column-span: all;
+    text-align: center;
 }
