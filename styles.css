@@ -1,7 +1,35 @@
 
-/*set columns*/
+/*set margins & columns*/
 body {
-    columns: 18rem auto; /* texten kommer automatiskt delas upp i kolumner mellan 18 och 36 rem breda, vilket borde ge okej radlängd*/
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* om jag lägger main i en flexbox, som ovan, vill main inte expandera till mer än en kolumn med columns, därför byter jag antalet kolumner manuellt, som nedan */
+@media (width < 56rem) {
+    main {
+        max-width: 25rem;
+    }
+}
+@media (min-width: 56rem) {
+    main {
+        column-count: 2;
+        width: 50rem;
+    }
+}
+@media (min-width: 83rem) {
+    main {
+        column-count: 3;
+        width: 75rem;
+    }
+}
+@media (min-width: 110rem) {
+    main {
+        column-count: 4;
+        width: 100rem;
+    }
 }
 h1 {
     column-span: all;
