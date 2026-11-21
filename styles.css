@@ -8,11 +8,17 @@ h1 {
     text-align: center;
 }
 
-/* marie francesca michl image */
+/* marie francesca michl image & quote */
 img.marie {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    column-span: all;
+}
+blockquote.marie {
+    column-span: all;
+    max-width: 30rem;
+    text-align: center;
 }
 
 /* summary paragraph */
