@@ -29,3 +29,8 @@ h2 {
     margin-bottom: 1rem;
     margin-top: 1.5rem;
 }
+
+/* radavstånd */
+p, blockquote, li {
+    line-height: 1.6;
+}
