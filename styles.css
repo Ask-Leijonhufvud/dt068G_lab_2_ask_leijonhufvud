@@ -1,7 +1,7 @@
 
 /*set columns*/
 body {
-    columns: 18rem auto;
+    columns: 18rem auto; /* texten kommer automatiskt delas upp i kolumner mellan 18 och 36 rem breda, vilket borde ge okej radlängd*/
 }
 h1 {
     column-span: all;
