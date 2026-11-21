@@ -17,7 +17,6 @@ img.marie {
 }
 blockquote.marie {
     column-span: all;
-    max-width: 30rem;
     text-align: center;
 }
 
