@@ -1,6 +1,6 @@
 # DT068G Laboration 2
 
-[GitHub Pages]()
+[GitHub Pages](https://ask-leijonhufvud.github.io/dt068G_lab_2_ask_leijonhufvud/)
 
 Detta var en universitetsuppgift med syftet:
 > * Att öva på att skapa en enkel och tillgänglig webbplats.
