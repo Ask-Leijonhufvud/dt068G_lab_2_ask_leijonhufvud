@@ -9,7 +9,7 @@ Detta var en universitetsuppgift med syftet:
 
 Uppgiften bestod av att jag skulle skapa en enkel webbplats med HTML och CSS. Texten och bilderna tillhandahölls av  - och kan hittas i mappen ```/assets``` - men resten fick man göra själv. CSS skulle läggas till via en extern fil.
 
-Uppgiftens kvar var följande:
+Uppgiftens krav var följande:
 > * HTML-koden ska struktureras korrekt med lämpliga element för semantik.
 > * Lägg till lämpliga rubriker, med en logisk rubrikstruktur i HTML.
 > * Infoga bilderna där det är lämpligt (alla bilder ska användas).
