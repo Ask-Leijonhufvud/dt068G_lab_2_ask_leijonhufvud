@@ -1,3 +1,25 @@
+/* colours */
+:root {
+    --foreground-colour: #ffffff;
+    --background-colour-primary: #000000;
+    --background-colour-secondary: #000080;
+}
+@media (prefers-color-scheme: light) {
+    :root {
+        --foreground-colour: #000;
+        --background-colour-primary: #fff;
+        --background-colour-secondary: #0ff;
+    }
+}
+body {
+    background-color: var(--background-colour-primary);
+    color: var(--foreground-colour);
+}
+.summary {
+    background-color: var(--background-colour-secondary);
+    border-radius: 10px;
+    padding: 10px;
+}
 
 /* font */
 body {
