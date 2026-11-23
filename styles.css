@@ -1,4 +1,9 @@
 
+/* font */
+body {
+    font-family: "Castoro", serif;
+}
+
 /*set margins & columns*/
 body {
     margin-left: 2rem;
